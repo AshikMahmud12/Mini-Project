@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Portfolio-HTML</title>
+        <link
+            rel="shortcut icon"
+            href="./assets/img/favicon.png"
+            type="image/x-icon"
+        />
+        <!-- Goggle fonts -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Vendors Files -->
+        <link rel="stylesheet" href="./vendors/css/normalize.css" />
+        <link rel="stylesheet" href="./vendors/css/grid.css" />
+        <link rel="stylesheet" href="./vendors/css/animatedCircle.css" />
+        <!-- Assets Files -->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/responsive.css" />
+    </head>
+    <body>
+     
+
+       
+     
+
+        <section class="portfolio-section" id="portfolio">
+           
+            <div class="row">
+                <div class="portfolio-filter">
+                    <button type="button" data-filter="all">ALL</button>
+                    <button type="button" data-filter=".web">Web</button>
+                    <button type="button" data-filter=".apps">Apps</button>
+                    <button type="button" data-filter=".icons">Icons</button>
+                </div>
+            </div>
+            <div class="row container">
+                <div class="col span_1_of_2 mix apps box">
+                    <img
+                        src="assets/img/portfolio1.png"
+                        alt="Isometric Perspective Mock-Up"
+                        class="portfolio-image"
+                    />
+                    <h4>Isometric Perspective Mock-Up</h4>
+                </div>
+                <div class="col span_1_of_2 mix apps web box">
+                    <img
+                        src="assets/img/portfolio2.png"
+                        alt="Time Zone App UI"
+                        class="portfolio-image"
+                    />
+                    <h4>Time Zone App UI</h4>
+                </div>
+                <div class="col span_1_of_2 icons box">
+                    <img
+                        src="assets/img/portfolio3.png"
+                        alt="Viro Media Players UI"
+                        class="portfolio-image"
+                    />
+                    <h4>Viro Media Players UI</h4>
+                </div>
+                <div class="col span_1_of_2 icons web apps box">
+                    <img
+                        src="assets/img/portfolio4.png"
+                        alt="Blog/Magazine Flat UI Kit"
+                        class="portfolio-image"
+                    />
+                    <h4>Blog/Magazine Flat UI Kit</h4>
+                </div>
+            </div>
+           
+        </section>
+        <!-- End Skill Section -->
+
+       
+
+        <!-- JS Script  -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script
+            src="https://kit.fontawesome.com/2ac4d6ea10.js"
+            crossorigin="anonymous"
+        ></script>
+        <script src="./vendors/js/jquery.waypoints.min.js"></script>
+        <script src="./vendors/js/animatedCircle.js"></script>
+        <script src="./vendors/js/mixitup.min.js"></script>
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>

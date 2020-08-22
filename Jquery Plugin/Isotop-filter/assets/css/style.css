@@ -1,0 +1,43 @@
+
+
+/* Portfolio Section */
+
+
+.portfolio-section {
+    color: #3c4761;
+}
+.portfolio-section h2::after {
+    background: #e5c37f;
+}
+.portfolio-filter {
+    margin: 4.5rem 0;
+}
+.portfolio-filter button {
+    background: #ebc985;
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    border: 0;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    color: #3c4761;
+    margin: 0 0.5rem;
+    transition: 0.5s;
+}
+.portfolio-filter button:hover {
+    cursor: pointer;
+    box-shadow: inset 0 0.3rem 0.5rem rgba(60, 71, 97, 0.5);
+}
+.portfolio-image {
+    width: 100%;
+    height: auto;
+}
+.portfolio-section .col:nth-child(3) {
+    margin-left: 0;
+}
+.portfolio-section .btn-load-more {
+    background: #17c2a4;
+    border-color: #14a583;
+}
+.portfolio-section .mixitup-control-active {
+    background: #fff;
+}

@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background: green;
+}
+.card {
+    width: 360;
+    background: #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.top-section {
+    height: 310px;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+}
+#image-container {
+    width: 360px;
+    height: 240px;
+}
+.nav {
+    text-align: center;
+}
+.nav img {
+    width: 80px;
+    height: 50px;
+    border: 1px sodid #ddd;
+    margin: 8px 2px;
+    cursor: pointer;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.nav img:hover {
+    border-color: #6ab04c;
+}
+.price {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #6ab04c;
+    font-size: 24px;
+}
+.name {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #333;
+}
+.dis {
+    font-size: 16px;
+    opacity: 0.7;
+}
+.btn {
+    display: block;
+    background: #6ab04c;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.btn:hover {
+    background: #333;
+}
