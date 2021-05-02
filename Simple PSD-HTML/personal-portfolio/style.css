@@ -1,0 +1,95 @@
+body{
+    font-family: 'Noto Serif', serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 50px;
+}
+.name-highlight{
+    color: #EC4C7D;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-color: #EC4C7D;
+    border: #EC4C7D;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 900;
+    transition: 1s;
+}
+
+#top-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 150px;
+}
+section{
+    height: 500px;
+}
+.middle{
+    margin-bottom: 150px;
+}
+#dream-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 300px;
+}
+
+.bio{
+    padding-top: 5%;
+}
+.bio p{
+    margin-bottom: 30px;
+}
+
+section#work-area {
+    height: 400px;
+}
+
+#work-area{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.latest-work img{
+    width: 30%;
+    float: left;
+}
+.latest-work{
+    margin-left: 10%;
+}
+.center {
+    padding: 70px 0;
+    text-align: center;
+  }
+
+#footer{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 100px ;
+}
+.box{
+    margin: 50px 275px;
+    padding: 50px;
+    background-color: #EC4C7D;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}

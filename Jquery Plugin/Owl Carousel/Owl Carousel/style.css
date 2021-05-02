@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+}
+.review-title{
+    text-align: center;
+    padding: 20px 0px;
+    border-bottom: 2px solid #dddddd;
+}
+.single-review{
+    background:#dddddd;
+    margin: 100px 40px;
+    padding:50px;
+    text-align: center;
+    border-radius:10px;
+    position: relative;
+}
+.img-thumbnail{
+    width:100px;
+    position: absolute;
+    top:-54px;
+    left:50%;
+    margin-left:-50px;
+}
+.img-thumbnail img{
+    border:8px solid #ddd;
+    border-radius: 50%;
+}
+.review-content{
+    margin-top:40px;
+}
+.review-content h2{
+    font-size: 20px;
+    color:#b428ce;
+    text-transform: uppercase;
+    margin-bottom:10px;
+}
+.review-content h5{
+    font-size: 16px;
+    color:#0c0c0c;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.review-content p{
+    font-size: 16px;
+    color:#0c0c0c;
+    line-height: 26px;
+}
+
+/*Control CSS*/
+button:focus{
+    outline: none;
+}
+.owl-nav{
+    position: absolute;
+    top:-55px;
+    right:0px;
+}
+.owl-nav button{
+    background:#757575 !important;
+    margin:0px 0px 0px 5px;
+    color:#fff !important;
+    width:30px;
+    height:40px;
+    transition: .4s;
+}
+.owl-nav button:hover{
+    background: #b428ce !important;
+}
+
+.owl-dots .owl-dot{
+    background:#dddddd !important;
+    width:26px;
+    height: 26px;
+    position: relative;
+    bottom:40px;
+    left:50%;
+    margin-right: 15px;
+    border-radius: 50%;
+    transition: .4s;
+}
+.owl-dots{
+    margin-left: 18px;
+}
+button.owl-dot:hover, button.owl-dot.active{
+    background:#b428ce !important;
+}

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slidebar-button {
+    text-align: center;
+    background: #ececec;
+    margin: 0 auto;
+}
+
+.slidebar-button h2 {
+    font-size: 30px;
+    margin: 50px;
+}
+
+.slidebar-button button {
+    background: #fffcfc;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0px 0px 10px -7px #000;
+    border-radius: 10px;
+    transition: .3s;
+    margin: 10px;
+}
+
+.slidebar-button button:hover {
+    background: #a2efb3;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+.slidebar-content p {
+    text-align: center;
+    margin: 10px;
+}

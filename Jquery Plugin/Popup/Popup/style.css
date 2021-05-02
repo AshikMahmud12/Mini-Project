@@ -1,0 +1,33 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+.content{
+    width:600px;
+    text-align: center;
+}
+img{
+    width:100%;
+}
+.popup-button{
+    width:500px;
+    margin:0 auto;
+    text-align: center;
+    background:#ddd;
+    padding:60px;
+    margin-top:50px;
+}
+.popup-button a{
+    color:#fff;
+    background: red;
+    text-decoration: none;
+    font-size:20px;
+    padding:10px 20px;
+    margin:5px;
+    transition: .4s;
+}
+.popup-button a:hover{
+    background:#fff;
+    color:#000;
+}

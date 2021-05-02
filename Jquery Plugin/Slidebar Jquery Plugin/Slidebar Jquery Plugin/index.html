@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slidebar Jquery Plugin</title>
+    <!-- Slidebar css -->
+    <link rel="stylesheet" href="css/slidebars.min.css">
+    <!-- Main css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <!-- Main area start -->
+    <div canvas="container" class="slidebar-button">
+        <h2>Slidebar Jquery Plugin</h2>
+        <button class="js-toggle-top">Top Slide Button</button>
+        <p>
+            <button class="js-toggle-left">Left Slide Button</button>
+            <button class="js-toggle-right">Right Slide Button</button>
+        </p>
+        <button class="js-toggle-bottom">Bottom Slide Button</button>
+    </div>
+    <div class="slidebar-content">
+        <div off-canvas="top-slidebar top push">
+            <p>This one is Top Slidebar area. Here you can add also contents and images.</p>
+        </div>
+        <div off-canvas="left-slidebar left reveal">
+            <p>This one is Left Slidebar area. Here you can add also contents and images.</p>
+        </div>
+        <div off-canvas="right-slidebar right shift">
+            <p>This one is Right Slidebar area. Here you can add also contents and images.</p>
+        </div>
+        <div off-canvas="bottom-slidebar bottom overlay">
+            <p>This one is Bottom Slidebar area. Here you can add also contents and images.</p>
+        </div>
+    </div>
+    <!-- Main area End -->
+
+    <!-- Jquery js -->
+    <script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <!-- Slidebar js -->
+    <script src="js/slidebars.min.js" type="text/javascript"></script>
+    <!-- Active js -->
+    <script src="js/active.js" type="text/javascript"></script>
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section#demo-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.section-title h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.single-demo {
+    width: 31.33%;
+    float: left;
+    padding: 1%;
+}
+
+.demo-content {
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 10px -5px #000;
+}
+
+.demo-img,
+.demo-img a {
+    height: 340px;
+    overflow: hidden;
+}
+
+.demo-img a {
+    display: block;
+    position: relative;
+}
+
+.demo-img a,
+.demo-img a img,
+.demo-img a:after,
+.demo-img a:before {
+    transition: 5s;
+}
+
+.demo-img a img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.demo-img a:before {
+    background: #1293d4 none repeat scroll 00;
+    content: "";
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+
+.single-demo:hover .demo-img a:before {
+    opacity: 1;
+}
+
+.demo-img a:after {
+    color: #fff;
+    content: "";
+    font-size: 16px;
+    font-weight: 700;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    text-transform: capitalize;
+    top: 20%;
+    transition: all 0.3s ease 0s;
+}
+
+.single-demo:hover .demo-img a:after {
+    opacity: 1;
+    top: 44%;
+}
+
+.demo-title {
+    background: #4dc3cf;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.demo-title h2 {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+/* Responsive CSS */
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    .single-demo {
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+    .demo-img,
+    .demo-img a {
+        height: 500px;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .single-demo {
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+    .demo-img,
+    .demo-img a {
+        height: 500px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .single-demo {
+        width: 48%;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+    .demo-img,
+    .demo-img a {
+        height: 600px;
+    }
+}

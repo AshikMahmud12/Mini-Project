@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+#section-2, #section-3, #section-4{
+    background-size: cover;
+}
+#section-2{
+    background-image: url(images/1.jpg);
+}
+#section-3{
+    background-image: url(images/2.jpg);
+}
+#section-4{
+    background-image: url(images/3.jpg);
+}
+#myVideo{
+    position: absolute;
+    width:100%;
+    height:100%;
+    right:0;
+    top:0;
+    z-index: 4;
+    background-size: 100% 100%;
+    background-color:#000;
+    background-position: center center;
+    object-fit:cover;
+}
+.intro{
+    width:60%;
+    margin:0 auto;
+    background:#00000094;
+    padding:30px;
+    text-align: center;
+}
+.intro-video{
+    position: absolute;
+    width: 60%;
+    left:20%;
+    top:40%;
+    z-index: 5;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.intro h2{
+    font-size:55px;
+    font-weight: 500;
+    color:#fff;
+}
+.intro p{
+    font-size: 25px;
+    line-height: 35px;
+    color:#fff;
+    margin-top:30px;
+}
+
+/*Transition css*/
+.pp-easing {
+    transition: all 2000ms cubic-bezier(0.550, 0.085, 0.000, 0.990);
+    transition-timing-function: cubic-bezier(0.550, 0.085, 0.000, 0.990);
+}
